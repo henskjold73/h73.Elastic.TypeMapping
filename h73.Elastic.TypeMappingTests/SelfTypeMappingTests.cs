@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using h73.Elastic.TypeMapping;
 using h73.Elastic.TypeMapping.Attributes;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
+using NUnit.Framework;
 
 namespace h73.Elastic.TypeMappingTests
 {
-    [TestClass]
+
     public class SelfTypeMappingTests
     {
-        [TestMethod]
+        [Test]
         public void KeyWordClass_Test()
         {
             var typeMapping = new TypeMapping<KeyWordClass>();
@@ -30,7 +30,7 @@ namespace h73.Elastic.TypeMappingTests
 
         }
 
-        [TestMethod]
+        [Test]
         public void MultipleOneLayerClass_Test()
         {
             var typeMapping = new TypeMapping<MultipleOneLayerClass>();
@@ -49,7 +49,7 @@ namespace h73.Elastic.TypeMappingTests
 
         }
 
-        [TestMethod]
+        [Test]
         public void MultipleLayerClass_Test()
         {
             var typeMapping = new TypeMapping<Multiple1LayerClass>();

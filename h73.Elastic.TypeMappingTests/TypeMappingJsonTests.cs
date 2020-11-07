@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using h73.Elastic.TypeMapping;
 using h73.Elastic.TypeMapping.Attributes;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
+using NUnit.Framework;
 
 namespace h73.Elastic.TypeMappingTests
 {
-    [TestClass]
     public class TypeMappingJsonTests
     {
-        [TestMethod]
+        [Test]
         public void TypeMappingJson_1()
         {
             var typeMapping = new TypeMapping<IndexedClass>();
