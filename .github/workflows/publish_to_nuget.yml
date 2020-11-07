@@ -9,11 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      # - name: Setup dotnet
-      #   uses: actions/setup-dotnet@v1
-      #   with:
-      #     dotnet-version: 3.1.200
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1.301
 
       # Publish
       - name: publish on version change
@@ -24,7 +23,7 @@ jobs:
           PROJECT_FILE_PATH: h73.Elastic.TypeMapping/h73.Elastic.TypeMapping.csproj
           
           # NuGet package id, used for version detection & defaults to project name
-          # PACKAGE_NAME: Core
+          PACKAGE_NAME: h73.Elastic.TypeMapping
           
           # Filepath with version info, relative to root of repository & defaults to PROJECT_FILE_PATH
           # VERSION_FILE_PATH: Directory.Build.props
@@ -39,10 +38,10 @@ jobs:
           # TAG_COMMIT: true
 
           # Format of the git tag, [*] gets replaced with actual version
-          # TAG_FORMAT: v*
+          TAG_FORMAT: v*
 
           # API key to authenticate with NuGet server
-          # NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
 
           # NuGet server uri hosting the packages, defaults to https://api.nuget.org
           # NUGET_SOURCE: https://api.nuget.org
