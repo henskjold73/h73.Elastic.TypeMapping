@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "h73.Elastic.TypeMapping", "h73.Elastic.TypeMapping\h73.Elastic.TypeMapping.csproj", "{9CCB5EE1-F60F-40C9-ADCB-3EFA5D3311CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "h73.Elastic.TypeMappingTests", "h73.Elastic.TypeMappingTests\h73.Elastic.TypeMappingTests.csproj", "{289396AE-D069-4FA2-B579-58590E5E4F0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CCB5EE1-F60F-40C9-ADCB-3EFA5D3311CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCB5EE1-F60F-40C9-ADCB-3EFA5D3311CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCB5EE1-F60F-40C9-ADCB-3EFA5D3311CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCB5EE1-F60F-40C9-ADCB-3EFA5D3311CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289396AE-D069-4FA2-B579-58590E5E4F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289396AE-D069-4FA2-B579-58590E5E4F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289396AE-D069-4FA2-B579-58590E5E4F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289396AE-D069-4FA2-B579-58590E5E4F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F11BE88B-A219-41E7-BC46-50FC7490ABAA}
+	EndGlobalSection
+EndGlobal
