@@ -12,6 +12,7 @@
     <copyright>Copyright 2018</copyright>
     <tags>h73 elastic elasticsearch search type mapping typemapping mappings</tags>
     <license type="expression">MIT</license>
+    <iconurl>https://github.com/henskjold73/h73.Elastic.TypeMapping/blob/main/img.png?raw=true</iconurl>
     <dependencies>
       <dependency id="Newtonsoft.Json" version="[12,13)" />
     </dependencies>
