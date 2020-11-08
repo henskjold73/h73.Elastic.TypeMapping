@@ -14,6 +14,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+  <None Include="img.png" Pack="true" PackagePath=""/>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
