@@ -8,16 +8,18 @@ jobs:
     name: build, pack & publish
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
       
-      - name: Fetch tags for GitVersion
+      - name: Fetch tags
         run: git fetch --tags
 
-      - name: GitVersion
-      - uses: actions/setup-gitversion@v1.0.0
+      - name: GitVersion setup
+        uses: actions/setup-gitversion@v1.0.0
         with:
           gitversion-version: 5.1.1
-      - run: GitVersion
+      - name: GitVersion
+        run: GitVersion
   
       - name: Output version values 
         run: |
