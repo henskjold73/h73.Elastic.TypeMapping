@@ -13,20 +13,6 @@ jobs:
       
       - name: Fetch tags
         run: git fetch --tags
-
-      - name: GitVersion setup
-        uses: actions/setup-gitversion@v1.0.0
-        with:
-          gitversion-version: 5.1.1
-      - name: GitVersion
-        run: GitVersion
-  
-      - name: Output version values 
-        run: |
-          echo "NuGetVersion: ${{ steps.gitversion.outputs.NuGetVersion }}"
-          echo "NuGetPreReleaseTagV2: ${{ steps.gitversion.outputs.NuGetPreReleaseTagV2 }}"
-          echo "NuGetPreReleaseTag: ${{ steps.gitversion.outputs.NuGetPreReleaseTag }}"
-      
       
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v1
@@ -45,7 +31,7 @@ jobs:
           PACKAGE_NAME: h73.Elastic.TypeMapping
           
           # Useful with external providers like Nerdbank.GitVersioning, ignores VERSION_FILE_PATH & VERSION_REGEX
-          VERSION_STATIC: ${{ steps.gitversion.outputs.NuGetVersion }}
+          #VERSION_STATIC: ${{ steps.gitversion.outputs.NuGetVersion }}
 
           # Flag to toggle git tagging, enabled by default
           TAG_COMMIT: true
