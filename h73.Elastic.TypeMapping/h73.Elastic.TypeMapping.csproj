@@ -10,7 +10,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>h73 elastic elasticsearch search type mapping typemapping mappings</PackageTags>
     <PackageReleaseNotes>$releasenote$</PackageReleaseNotes>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
