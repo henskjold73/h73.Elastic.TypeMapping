@@ -2,14 +2,13 @@
 <package>
   <metadata>
     <id>h73.Elastic.TypeMapping</id>
-    <Version>1.0.0.1</Version>
     <title>h73 Elastic TypeMapping</title>
     <authors>Morgan Henskjold</authors>
     <owners>h73</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>TypeMapping package for h73 Elasticsearch framework.</description>
     <releaseNotes></releaseNotes>
-    <copyright>Copyright 2018</copyright>
+    <copyright>Copyright 2020</copyright>
     <tags>h73 elastic elasticsearch search type mapping typemapping mappings</tags>
     <license type="expression">MIT</license>
     <icon>https://github.com/henskjold73/h73.Elastic.TypeMapping/blob/main/img.png?raw=true</icon>
