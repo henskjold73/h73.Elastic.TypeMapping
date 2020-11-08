@@ -2,7 +2,7 @@ name: publish to nuget
 on:
   push:
     branches:
-      - main # Default release branch
+      - master # Default release branch
 jobs:
   publish:
     name: build, pack & publish
@@ -14,8 +14,8 @@ jobs:
         run: git fetch --tags
 
       - name: Fetch master for GitVersion
-        if: github.ref != 'refs/heads/main'
-        run: git branch --create-reflog main origin/main
+        if: github.ref != 'refs/heads/master'
+        run: git branch --create-reflog master origin/master
 
       - name: GitVersion
         id: gitversion  # step id used as reference for output values
