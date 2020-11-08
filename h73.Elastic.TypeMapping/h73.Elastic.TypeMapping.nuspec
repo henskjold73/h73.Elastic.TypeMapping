@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>h73.Elastic.TypeMapping</id>
-    <version>1.0.0.1</version>
+    <Version>1.0.0.1</Version>
     <title>h73 Elastic TypeMapping</title>
     <authors>Morgan Henskjold</authors>
     <owners>h73</owners>
