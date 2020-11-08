@@ -3,14 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>henskjold73</Authors>
-    <Company>h73 Systems</Company>
+    <Company>h73</Company>
     <Description>TypeMapping package for h73 Elasticsearch framework</Description>
-    <Copyright>h73 Systems 2018</Copyright>
-    <PackageIconUrl>https://pbs.twimg.com/profile_images/522630699287724034/4gTab-d2_400x400.png</PackageIconUrl>
+    <Copyright>h73 Systems 2020</Copyright>
+    <PackageIcon>https://github.com/henskjold73/h73.Elastic.TypeMapping/blob/main/img.png?raw=true</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <PackageTags>h73 elastic elasticsearch search type mapping typemapping mappings</PackageTags>
     <PackageReleaseNotes>$releasenote$</PackageReleaseNotes>
-    <Version>1.0.0.0</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
